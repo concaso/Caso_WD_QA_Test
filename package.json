@@ -1,0 +1,24 @@
+{
+  "name": "wd-suite-qa",
+  "version": "1.0.0",
+  "description": "Playwright test suite for Walker & Dunlop Suite",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:auth": "playwright test --grep @auth",
+    "test:search": "playwright test --grep @search",
+    "test:mock": "playwright test --grep @mock",
+    "test:a11y": "playwright test --grep @a11y",
+    "type-check": "tsc --noEmit",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.9.1",
+    "@playwright/test": "^1.44.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.4.5"
+  }
+}

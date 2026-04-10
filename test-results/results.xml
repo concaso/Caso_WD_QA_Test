@@ -1,0 +1,56 @@
+<testsuites id="" name="" tests="21" failures="0" skipped="0" errors="0" time="178.79699399999998">
+<testsuite name="auth/public-flows.spec.ts" timestamp="2026-04-10T19:17:03.088Z" hostname="public" tests="4" failures="0" skipped="0" time="16.662" errors="0">
+<testcase name="Public / Pre-Login Flows › @smoke – homepage loads and presents a login entry point" classname="auth/public-flows.spec.ts" time="2.441">
+</testcase>
+<testcase name="Public / Pre-Login Flows › @smoke – unauthenticated user is presented with a login entry point" classname="auth/public-flows.spec.ts" time="3.384">
+</testcase>
+<testcase name="Public / Pre-Login Flows › login form – invalid credentials show an error, not a crash" classname="auth/public-flows.spec.ts" time="6.752">
+</testcase>
+<testcase name="Public / Pre-Login Flows › login form – submit button is disabled until fields are filled" classname="auth/public-flows.spec.ts" time="4.085">
+</testcase>
+</testsuite>
+<testsuite name="auth/authenticated-flows.spec.ts" timestamp="2026-04-10T19:17:03.088Z" hostname="authenticated" tests="5" failures="0" skipped="0" time="45.911" errors="0">
+<testcase name="Authenticated Workflows › @auth – authenticated user reaches the app dashboard after login" classname="auth/authenticated-flows.spec.ts" time="8.436">
+</testcase>
+<testcase name="Authenticated Workflows › @auth @smoke – search input is accessible post-login" classname="auth/authenticated-flows.spec.ts" time="7.714">
+</testcase>
+<testcase name="Authenticated Workflows › @auth – typing an address shows autocomplete suggestions" classname="auth/authenticated-flows.spec.ts" time="7.579">
+</testcase>
+<testcase name="Authenticated Workflows › @auth – selecting a search suggestion navigates to a property detail page" classname="auth/authenticated-flows.spec.ts" time="12.611">
+</testcase>
+<testcase name="Authenticated Workflows › @auth – property detail page contains key data sections" classname="auth/authenticated-flows.spec.ts" time="9.571">
+</testcase>
+</testsuite>
+<testsuite name="mocks/search-mocked.spec.ts" timestamp="2026-04-10T19:17:03.088Z" hostname="authenticated" tests="2" failures="0" skipped="0" time="18.23" errors="0">
+<testcase name="Search – Mocked API (Deterministic) › @mock – autocomplete renders mocked suggestions correctly" classname="mocks/search-mocked.spec.ts" time="9.985">
+</testcase>
+<testcase name="Search – Mocked API (Deterministic) › @mock – failed search API shows graceful degradation (no crash)" classname="mocks/search-mocked.spec.ts" time="8.245">
+</testcase>
+</testsuite>
+<testsuite name="search/map-component.spec.ts" timestamp="2026-04-10T19:17:03.088Z" hostname="authenticated" tests="3" failures="0" skipped="0" time="27.821" errors="0">
+<testcase name="Map Component › @map – map container is visible after navigating to a property" classname="search/map-component.spec.ts" time="9.318">
+</testcase>
+<testcase name="Map Component › @map – map renders on the property detail page" classname="search/map-component.spec.ts" time="10.186">
+</testcase>
+<testcase name="Map Component › @map – map does not capture pointer events and block other UI elements" classname="search/map-component.spec.ts" time="8.317">
+</testcase>
+</testsuite>
+<testsuite name="search/property-search.spec.ts" timestamp="2026-04-10T19:17:03.088Z" hostname="authenticated" tests="5" failures="0" skipped="0" time="49.228" errors="0">
+<testcase name="Property Search – End-to-End › @search @smoke – search input accepts text and shows suggestions" classname="search/property-search.spec.ts" time="7.387">
+</testcase>
+<testcase name="Property Search – End-to-End › @search – clearing the search input dismisses the suggestion list" classname="search/property-search.spec.ts" time="12.919">
+</testcase>
+<testcase name="Property Search – End-to-End › @search – keyboard navigation works in the suggestion list" classname="search/property-search.spec.ts" time="7.856">
+</testcase>
+<testcase name="Property Search – End-to-End › @search – full journey: search → select → property detail renders" classname="search/property-search.spec.ts" time="11.237">
+</testcase>
+<testcase name="Property Search – End-to-End › @search – navigating back from detail page returns to search" classname="search/property-search.spec.ts" time="9.829">
+</testcase>
+</testsuite>
+<testsuite name="accessibility/a11y-smoke.spec.ts" timestamp="2026-04-10T19:17:03.088Z" hostname="accessibility" tests="2" failures="0" skipped="0" time="11.529" errors="0">
+<testcase name="Accessibility – Axe Smoke › @a11y – login page has no critical or serious violations" classname="accessibility/a11y-smoke.spec.ts" time="2.554">
+</testcase>
+<testcase name="Accessibility – Axe Smoke › @a11y – post-login landing page has no critical or serious violations" classname="accessibility/a11y-smoke.spec.ts" time="8.975">
+</testcase>
+</testsuite>
+</testsuites>

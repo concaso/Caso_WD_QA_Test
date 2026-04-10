@@ -1,0 +1,28 @@
+{
+  "suggestions": [
+    {
+      "description": "227 W Monroe St, Chicago, IL 60606, USA",
+      "place_id": "mock-place-id-001",
+      "structured_formatting": {
+        "main_text": "227 W Monroe St",
+        "secondary_text": "Chicago, IL 60606, USA"
+      }
+    },
+    {
+      "description": "Monroe Plaza, 123 Monroe Ave, Grand Rapids, MI 49503, USA",
+      "place_id": "mock-place-id-002",
+      "structured_formatting": {
+        "main_text": "Monroe Plaza",
+        "secondary_text": "123 Monroe Ave, Grand Rapids, MI 49503, USA"
+      }
+    },
+    {
+      "description": "Monroe Tower, 55 W Monroe St, Chicago, IL 60603, USA",
+      "place_id": "mock-place-id-003",
+      "structured_formatting": {
+        "main_text": "Monroe Tower",
+        "secondary_text": "55 W Monroe St, Chicago, IL 60603, USA"
+      }
+    }
+  ]
+}
