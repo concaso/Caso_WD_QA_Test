@@ -1,9 +1,8 @@
 
-Dave Sauro
 12:30 PM
 https://desktop.github.com/download/
 
-Dave Sauro
+
 12:42 PM
 # Logs
 logs
@@ -73,8 +72,8 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
-.env.*
+# .env
+# .env.*
 !.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -149,3 +148,4 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+# Temporarily allowing .env for submission
